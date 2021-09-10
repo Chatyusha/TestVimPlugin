@@ -1,0 +1,30 @@
+*test.txt*  VimTestPlugin
+================================================================
+
+- COMMAND
+- FUNCTION
+- IINFORMATION
+
+===============================================================
+COMMAND
+
+- :HelloVim
+
+-> echo "Hello World!"
+
+===============================================================
+FUNCTION
+
+- test#testhello()
+
+-> echo "Hello World!"
+
+===============================================================
+INFORMATION
+
+VERSION: 1.0.0
+Author: Chatyusha
+LISENSE: MIT
+EMAIL: hirounicat76@gmail.com
+
+===============================================================
