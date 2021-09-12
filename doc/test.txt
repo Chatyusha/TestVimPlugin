@@ -12,12 +12,23 @@ COMMAND
 
 -> echo "Hello World!"
 
+- :HelloName
+
+->  echo "Hello" . g:sample_name
+  (default: sample_name="Ekaterina")
+
+
 ===============================================================
 FUNCTION
 
-- test#testhello()
+- test#hello()
 
 -> echo "Hello World!"
+
+- test#heloname()
+
+-> echo "Hello" . g:sample_name
+  (default: sample_name="Ekaterina")
 
 ===============================================================
 INFORMATION

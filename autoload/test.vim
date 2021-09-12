@@ -7,5 +7,9 @@ function! test#hello() abort
   echo "Hello World!"
 endfunction
 
+function! test#helloname() abort
+  echo "Hello" . g:sample_name
+endfunction
+
 let &cpo = s:save_cpo
 unlet s:save_cpo
